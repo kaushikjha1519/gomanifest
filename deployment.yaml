@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: go-app
-          image: kaushikkjha/go-app:latest   # Jenkins will update this tag
+          image: kaushikkjha/go-app:15
           ports:
             - containerPort: 8087
           readinessProbe:
