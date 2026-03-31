@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: go-app
-          image: kaushikkjha/go-app:16
+          image: kaushikkjha/go-app:17
           ports:
             - containerPort: 8087
           readinessProbe:
